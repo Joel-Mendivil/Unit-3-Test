@@ -6,29 +6,52 @@ body{
     vertical-align: middle;
 }
 html{
-    background: radial-gradient( aqua, teal, black);
+    background: red;
     color: white;
     height: 100%;
     text-align: center;
 }
-input{
-    background-color: rgb(233, 164, 16);
-    color: indigo;
-    border: 2px solid  indigo;
-    box-shadow: indigo 3px 3px 3px;
-    
-}
-
 button{
-    background-color: rgb(219, 146, 50);
-    color:  (41, 23, 0);
+    background-color: black;
+    color: white;
+    border: 2px solid  white;
+    margin: 2px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: white;
+    color: black;
     border: 2px solid  black;
     margin: 2px;
     font-size: 15px;
-    box-shadow: indigo 3px 3px 3px;
+    transition: 0.5s;
 }
-form, p{
-    color:rgb(236, 178, 71);
+form{
+    color:black;
+    font-size: 35px;
+}
+p:last-of-type{
+    background-color: white;
+    color: black;
+    border: 2px solid  black;
+    margin: 10px;
     font-size: 20px;
-    text-shadow: black 2px 2px 2px;
+    text-align: center
+}
+p:first-of-type{
+    font-size: 20px;
+}
+div#output{
+    width: 100px;
+    border: solid 3px white;
+    height: 45px;
+    padding: 5px;
+    text-align: center;
+    float: none;
+    margin: auto;
+    background-color: black;
+    border-radius: 7px;
+    transition: cubic-bezier();
+    color: white;
+    font-size: 40px;
 }
